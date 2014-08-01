@@ -452,7 +452,7 @@ final class BackWPup_Job {
 															'key' => $query_args[ 'doing_wp_cron' ],
 															'args' => array(
 																'blocking'   	=> FALSE,
-																'sslverify'		=> apply_filters( 'https_local_ssl_verify', true ),
+																'sslverify'		=> apply_filters( 'https_local_ssl_verify', false ),
 																'timeout' 		=> 0.01,
 																'headers'    	=> $header,
 															    'cookies'    	=> array(
